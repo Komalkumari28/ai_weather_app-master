@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyPulse</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">SkyPulse <span style="color:#7b2ff7;"></span> Weather</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Search city..." />
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+      <button class="location-btn"><i class="fas fa-location-dot"></i> Current Location</button>
+    </div>
+
+    <div class="main-flex">
+      <div class="left-col">
+        <div class="main-card wide-card">
+          <div class="weather-info">
+            <h2>New York, US</h2>
+            <p>Wednesday, June 11, 2025</p>
+            <div class="main-temp-row">
+              <span class="weather-icon animated-icon">&#9728;&#65039;</span>
+              <h1>24°C</h1>
+            </div>
+            <p>Sunny</p>
+            <div class="stats">
+              <div><i class="fas fa-droplet animated-icon"></i><br>Humidity<br><strong>65%</strong></div>
+              <div><i class="fas fa-wind animated-icon"></i><br>Wind<br><strong>5 km/h</strong></div>
+              <div><i class="fas fa-sun animated-icon"></i><br>UV Index<br><strong>6</strong></div>
+              <div><i class="fas fa-gauge animated-icon"></i><br>Pressure<br><strong>1015 hPa</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-col">
+        <div class="assistant-card big-chatbot">
+          <div class="assistant">
+            <h3>News Chatbot <span class="online-dot">●</span></h3>
+            <div class="chat-box tall-chat-box no-scrollbar">
+              <div class="msg bot"><i class="fas fa-user"></i> Hello! I'm your news chatbot. Ask me anything about the weather or news.</div>
+              <div class="msg user"><i class="fas fa-user"></i> Will it rain tomorrow?</div>
+              <div class="msg bot"><i class="fas fa-user"></i> Yes, there's a 70% chance of rain tomorrow. I recommend taking an umbrella with you!</div>
+            </div>
+            <div class="chat-input">
+              <input type="text" placeholder="Type your message..." />
+              <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="forecast">
+      <h3>5-Day Forecast</h3>
+      <div class="days center-days">
+        <div class="day-card animated-card">
+          <div>Tue, 16 May</div>
+          <div class="weather-icon animated-icon">&#9729;&#65039;</div>
+          <div>23°C</div>
+          <div>Partly Cloudy</div>
+        </div>
+        <div class="day-card animated-card">
+          <div>Wed, 17 May</div>
+          <div class="weather-icon animated-icon">&#127783;</div>
+          <div>19°C</div>
+          <div>Rainy</div>
+        </div>
+        <div class="day-card animated-card">
+          <div>Thu, 18 May</div>
+          <div class="weather-icon animated-icon">&#9728;&#65039;</div>
+          <div>26°C</div>
+          <div>Sunny</div>
+        </div>
+        <div class="day-card animated-card">
+          <div>Fri, 19 May</div>
+          <div class="weather-icon animated-icon">&#9729;&#65039;</div>
+          <div>22°C</div>
+          <div>Partly Cloudy</div>
+        </div>
+        <div class="day-card animated-card">
+          <div>Sat, 20 May</div>
+          <div class="weather-icon animated-icon">&#127783;</div>
+          <div>18°C</div>
+          <div>Rainy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
+
