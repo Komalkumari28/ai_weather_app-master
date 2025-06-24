@@ -1,3 +1,5 @@
+![image alt](https://github.com/Komalkumari28/ai_weather_app-master/blob/main/WhatsApp%20Image%202025-06-11%20at%207.06.10%20PM.jpeg?raw=true)
+
 # 🌦️ AI Weather App
 
 A simple AI-powered weather application built using Node.js, Express, and Vanilla JavaScript.
@@ -38,6 +40,10 @@ This will automatically create the node_modules folder and install all required 
 
 🚀 5️⃣ Run the Server
 Start your backend server by running:
+
+
+
+
 
 
 node server.js
