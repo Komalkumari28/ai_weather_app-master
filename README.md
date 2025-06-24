@@ -41,3 +41,6 @@ Start your backend server by running:
 
 
 node server.js
+
+
+![image alt](https://github.com/Komalkumari28/ai_weather_app-master/blob/main/WhatsApp%20Image%202025-06-11%20at%207.06.10%20PM.jpeg?raw=true)
